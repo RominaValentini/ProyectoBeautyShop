@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <title>Ropa y Zapatos</title>
+  <link rel="stylesheet" href="pg.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <SCript src="https://kit.fontawesome.com/e15e8c34af.js" crossorigin="anon"></SCript>
+  <link rel="icon" href="img.logo/favicon.ico">
+</head>
+
+<body>
+ 
+  <header>
+
+    <div class="menu">
+      <nav>
+
+        <h2>Ropa y calzado </h2>
+        <hr>
+        <ul>
+          <li><a class="dropdown-item" href="Index.html">Página principal</a></li>
+          <li><a class="dropdown-item" href="Maquillaje.html">Maquillaje</a></li>
+          <li><a class="dropdown-item" href="Perfumes.html">Perfumes</a></li>
+          <li><a class="dropdown-item" href="Moda.html">Moda</a></li>
+          <li><a class="dropdown-item" href="Contacto.html">Contacto</a></li>          
+          <li><a class="dropdown-item" href="Usuarios.html">Usuarios</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="encabezado-ropa-moda">
+    </div>
+  </header>
+  <section class="contenedor" id="contenedor">
+    <!-- Contenedor de elementos -->
+    <div class="contenedor-items">
+        <div class="item">
+            <span class="titulo-item">Zapatillas Converse</span>
+            <img src="img.ropa/images.jpeg" alt="" class="img-item" >
+            <span class="precio-item">$72.500</span>
+            <span class="codigo-item">Código: 43272</span>
+            <button class="boton-item">Agregar al Carrito</button>
+        </div>
+ 
+        <div class="item">
+          <span class="titulo-item">Remera Adidas</span>
+          <img src="img.ropa/descarga (4).jpeg" alt="" class="img-item" >
+          <span class="precio-item">$42.000</span>
+          <span class="codigo-item">Código: 39321</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Campera Jean</span>
+          <img src="img.ropa/descarga (3).jpeg" alt="" class="img-item" >
+          <span class="precio-item">$80.000</span>
+          <span class="codigo-item">Código: 37126</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Plataformas</span>
+          <img src="img.ropa/Plataformas-Versace-940x702.jpg" alt="" class="img-item" >
+          <span class="precio-item">$115.000</span>
+          <span class="codigo-item">Código: 05451</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Campera Inflable</span>
+          <img src="img.ropa/campera_inken_2_de_mujer_con_pluma_allied_800_fp_imagen1.jpg" alt="" class="img-item" >
+          <span class="precio-item">$120.000</span>
+          <span class="codigo-item">Código: 90258</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">botas de lluvia</span>
+          <img src="img.ropa/botas.jpeg" alt="" class="img-item" >
+          <span class="precio-item">$180.000</span>
+          <span class="codigo-item">Código: 05654</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Zapatillas de tacon</span>
+          <img src="img.ropa/tacon estampado.jpg" alt="" class="img-item" >
+          <span class="precio-item">$90.000</span>
+          <span class="codigo-item">Código: 14551</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+        <div class="item">
+          <span class="titulo-item">Pantalón Jean</span>
+          <img src="img.ropa/descarga (2).jpeg" alt="" class="img-item" >
+          <span class="precio-item">$70.000</span>
+          <span class="codigo-item">Código: 83451</span>
+          <button class="boton-item">Agregar al Carrito</button>
+        </div>
+       
+    </div>
+    <!-- Carrito de Compras -->
+    <div class="carrito" id="carrito">
+        <div class="header-carrito">
+            <h2>Tu Carrito</h2>
+        </div>
+
+        <div class="carrito-items">
+         
+        </div>
+        <div class="carrito-total">
+            <div class="fila">
+                <strong>Tu Total</strong>
+                <span class="carrito-precio-total">
+                    $120.000,00
+                </span>
+            </div>
+            <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+        </div>
+    </div>
+</section>
+ 
+<script src="carrito.js"></script>
+</body>
+<footer>
+
+  <a href="https://twitter.com/"><i class="fa fa-brands fa fa-twitter"></i></a>
+  <a href="https://es-la.facebook.com/"><i class="fa fa-facebook"></i></i></a>
+  <a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></i></a>
+
+
+  <p>Realizado por: Dayana Romero, Hernán Sturla, Leonela Zalazar y Romina Valentini. 2023 Derechos Reservados</p>
+
+</footer>
+
+</html>
